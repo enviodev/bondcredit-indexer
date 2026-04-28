@@ -1,0 +1,13 @@
+type MamoUser {
+  id: ID!
+  createdAt: BigInt!
+  createdAtBlock: BigInt!
+}
+
+type DailyFlow {
+  id: ID!
+  day: Int!
+  deposits: BigDecimal!
+  withdrawals: BigDecimal!
+  netFlow: BigDecimal!
+}

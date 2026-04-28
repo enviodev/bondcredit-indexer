@@ -1,0 +1,18 @@
+# yaml-language-server: $schema=./node_modules/envio/evm.schema.json
+name: mamo-base-indexer
+description: Mamo user + USDC daily flow indexer (Base)
+contracts:
+  - name: USDC
+    events:
+      - event: "Transfer(address indexed from, address indexed to, uint256 value)"
+  - name: Factory
+    events:
+      - event: "StrategyCreated(address indexed user, address indexed strategy)"
+chains:
+  - id: 8453 # Base
+    start_block: 36267455 # StrategyFactory deployment block (2025-10-01)
+    contracts:
+      - name: USDC
+        address: 0x833589fcd6edb6e08f4c7c32d4f71b54bda02913
+      - name: Factory
+        address: 0x1Eeb3FD8C8302dAf6BC265a6B8a5C397d89DE286
