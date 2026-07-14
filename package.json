@@ -14,10 +14,7 @@
     "vitest": "4.0.18"
   },
   "dependencies": {
-    "envio": "3.0.0-alpha.22"
-  },
-  "optionalDependencies": {
-    "generated": "./bond-indexer/../generated"
+    "envio": "3.2.1"
   },
   "engines": {
     "node": ">=22.0.0"

@@ -1,4 +1,4 @@
-import { indexer, BigDecimal, type DailyFlow } from "generated";
+import { indexer, BigDecimal, type DailyFlow } from "envio";
 
 const SECONDS_PER_DAY = 86_400;
 // USDC on Base has 6 decimals.

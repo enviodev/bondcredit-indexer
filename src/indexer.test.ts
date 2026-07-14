@@ -1,5 +1,5 @@
 import { describe, it, expect } from "vitest";
-import { createTestIndexer, type MamoUser } from "generated";
+import { createTestIndexer, type MamoUser } from "envio";
 import { TestHelpers } from "envio";
 const { Addresses } = TestHelpers;
 

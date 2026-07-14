@@ -1,4 +1,4 @@
-import { indexer } from "generated";
+import { indexer } from "envio";
 
 // StrategyCreated emits (user EOA, deployed strategy account). USDC flows
 // in and out of the strategy account, so we key MamoUser by the strategy
